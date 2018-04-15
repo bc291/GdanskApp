@@ -1,0 +1,166 @@
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\Pages\Images\pano_gdansk.jpg
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\tristarweather.exe
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\FontAwesome.WPF.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\LiveCharts.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\WPFToolkit.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\JsonPdfCategories.json
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\tristarweather.exe.config
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\tristarweather.exe.manifest
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\tristarweather.application
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\tristarweather.pdb
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\BingMapsRESTToolkit.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\ControlzEx.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\BingMapsRESTToolkit.pdb
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\BingMapsRESTToolkit.xml
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\ControlzEx.pdb
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\FontAwesome.WPF.xml
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\LiveCharts.pdb
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\LiveCharts.xml
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\ChartPages\ChartCityWeather.baml
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\ChartPages\ChartWindow.baml
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\ChartPages\ChartCityWeather.g.cs
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\ChartPages\ChartWindow.g.cs
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\EventDetails.g.cs
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\EventLocationMap.g.cs
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\Pages\MainFrame.g.cs
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\Pages\Page3.g.cs
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\MainWindow.g.cs
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\Pages\Page1.g.cs
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\Pages\Page2.g.cs
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\Pages\Page4.g.cs
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\Settings\Settingss.g.cs
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\Tile.g.cs
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\App.g.cs
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\tristarweather_Content.g.cs
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\tristarweather_MarkupCompile.cache
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\tristarweather_MarkupCompile.lref
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\App.baml
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\EventDetails.baml
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\EventLocationMap.baml
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\Pages\MainFrame.baml
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\Pages\Page3.baml
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\MainWindow.baml
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\Pages\Page1.baml
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\Pages\Page2.baml
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\Pages\Page4.baml
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\Settings\Settingss.baml
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\Tile.baml
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\tristarweather.g.resources
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\tristarweather.Properties.Resources.resources
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\tristarweather.csproj.GenerateResource.cache
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\tristarweather.csproj.CoreCompileInputs.cache
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\tristarweather.exe.manifest
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\tristarweather.application
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\tristarweather.csproj.CopyComplete
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\tristarweather.exe
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\tristarweather.pdb
+C:\Users\Marta\Documents\tristarweather\tristarweather\obj\Debug\tristarweather.csprojResolveAssemblyReference.cache
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\Pages\Images\pano_gdansk.jpg
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\JsonPdfCategories.json
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\tristarweather.exe.config
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\tristarweather.exe.manifest
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\tristarweather.application
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\tristarweather.exe
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\tristarweather.pdb
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\BingMapsRESTToolkit.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\ControlzEx.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\FontAwesome.WPF.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\HtmlAgilityPack.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\LiveCharts.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\WPFToolkit.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\BingMapsRESTToolkit.pdb
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\BingMapsRESTToolkit.xml
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\ControlzEx.pdb
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\FontAwesome.WPF.xml
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\HtmlAgilityPack.xml
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\LiveCharts.pdb
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\LiveCharts.xml
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\ChartPages\ChartCityWeather.baml
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\ChartPages\ChartWindow.baml
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\ChartPages\ChartCityWeather.g.cs
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\ChartPages\ChartWindow.g.cs
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\EventDetails.g.cs
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\EventLocationMap.g.cs
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\Pages\MainFrame.g.cs
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\Pages\Page3.g.cs
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\MainWindow.g.cs
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\Pages\Page1.g.cs
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\Pages\Page2.g.cs
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\Pages\Page4.g.cs
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\Settings\Settingss.g.cs
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\Tile.g.cs
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\App.g.cs
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\tristarweather_Content.g.cs
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\tristarweather_MarkupCompile.cache
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\tristarweather_MarkupCompile.lref
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\App.baml
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\EventDetails.baml
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\EventLocationMap.baml
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\Pages\MainFrame.baml
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\Pages\Page3.baml
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\MainWindow.baml
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\Pages\Page1.baml
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\Pages\Page2.baml
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\Pages\Page4.baml
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\Settings\Settingss.baml
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\Tile.baml
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\tristarweather.g.resources
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\tristarweather.Properties.Resources.resources
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\tristarweather.csproj.GenerateResource.cache
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\tristarweather.csproj.CoreCompileInputs.cache
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\tristarweather.exe.manifest
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\tristarweather.application
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\tristarweather.csproj.CopyComplete
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\tristarweather.exe
+C:\Users\bazio\Documents\Visual Studio 2017\Projects\tristarweather\tristarweather\obj\Debug\tristarweather.pdb
+C:\Users\bazio\documents\visual studio 2017\Projects\tristarweather\tristarweather\obj\Debug\tristarweather.csprojResolveAssemblyReference.cache

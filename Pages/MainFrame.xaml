@@ -1,0 +1,21 @@
+﻿<Page x:Class="tristarweather.Pages.MainFrame"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:tristarweather"
+      mc:Ignorable="d" 
+      d:DesignHeight="426" d:DesignWidth="644"
+      Title="MainFrame">
+    <Page.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="BorderThickness" Value="0"></Setter>
+            <Setter Property="IsReadOnly" Value="True"></Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="{DynamicResource pageBackground}">
+        <Image Source="Images/pano_gdansk.jpg" Margin="0,0,0,263" Visibility="Visible" Stretch="Fill"></Image>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="105" TextWrapping="Wrap"  VerticalAlignment="Top" Width="597" Foreground="{DynamicResource themeDarkFontColor}" Background="{x:Null}" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontSize="20" FontFamily="Century Gothic" TextAlignment="Right" Margin="18,191,0,0"/>
+    </Grid>
+</Page>

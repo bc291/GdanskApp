@@ -1,0 +1,70 @@
+﻿<Window x:Class="tristarweather.EventLocationMap"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tristarweather"
+        xmlns:wpf="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        mc:Ignorable="d"
+        Title="Lokalizacja wydarzenia" Height="700" Width="1000" ResizeMode="NoResize">
+
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="BorderThickness" Value="0"></Setter>
+            <Setter Property="IsReadOnly" Value="True"></Setter>
+        </Style>
+        <DataTemplate x:Key="myHeaderTemplate">
+            <DockPanel>
+
+                <TextBlock FontSize="18" Foreground="White">
+                    <TextBlock.Text>
+                        <Binding/>
+                    </TextBlock.Text>
+                </TextBlock>
+            </DockPanel>
+        </DataTemplate>
+
+
+
+
+
+        <Style x:Key="myHeaderStyle" TargetType="{x:Type GridViewColumnHeader}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="GridViewColumnHeader">
+                        <!-- Standard template but with redundant Storyboard removed -->
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+        </Style>
+    </Window.Resources>
+
+    <Grid x:Name="MainGrid">
+
+        <wpf:Map x:Name="EventMapBing" CredentialsProvider="HIDDEN_FOR_GIT_PURPOSES" MouseDoubleClick="EventMapBing_MouseDoubleClick">
+            <TextBox x:Name="eventInfoTextBox" HorizontalAlignment="Left" Height="47" TextWrapping="Wrap" Text="EventAddress" VerticalAlignment="Top" Width="304" Background="{x:Null}" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" FontSize="24" FontFamily="Century Gothic"/>
+            <TextBox x:Name="routeHintTextBox" HorizontalAlignment="Center" Height="104" TextWrapping="Wrap" Text="Aby obliczyć drogę kliknij proszę dwa razy w wybrany punkt, lub podaj swój adres domowy ->" VerticalAlignment="Center" Width="328" Background="{x:Null}" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" Margin="366,131,300,436.5" FontSize="20" TextAlignment="Justify">
+                <TextBox.Effect>
+                    <DropShadowEffect BlurRadius="20"/>
+                </TextBox.Effect>
+            </TextBox>
+            <TextBox x:Name="routeDistanceTextBox" HorizontalAlignment="Left" Height="33" TextWrapping="Wrap" Text="RouteDetails" VerticalAlignment="Top" Width="164" Background="{x:Null}" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" Margin="861,0,-31,0" FontSize="24" FontFamily="Century Gothic"/>
+            <Button Content="Oblicz trasę" HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Width="111" Margin="826,265,0,0" Click="Button_Click" FontFamily="Century Gothic" Background="Black" Opacity="0.7" Foreground="White"/>
+            <TextBox IsReadOnly="False" x:Name="actualAddressTextBox" Height="20" VerticalAlignment="Top" Margin="324,641,260,0" Background="Black" BorderBrush="#FF1751FF" CaretBrush="Black" SelectionBrush="Black" FontFamily="Century Gothic" FontSize="14" Opacity="0.35" Foreground="White"/>
+            <TextBox IsReadOnly="False" x:Name="streetTextBox" Height="32" VerticalAlignment="Top" Margin="794,178,30,0" Background="Black" BorderBrush="#FF1751FF" CaretBrush="White" SelectionBrush="Black" FontFamily="Century Gothic" FontSize="26" Opacity="0.35" Foreground="White"/>
+            <Label Content="Ulica" HorizontalAlignment="Left" Height="41" VerticalAlignment="Top" Width="87" Margin="700,170,0,0" FontSize="26" FontFamily="Century Gothic"/>
+            <TextBox IsReadOnly="False" x:Name="cityTextBox" Height="33" VerticalAlignment="Top" Margin="795,218,29,0" Background="Black" BorderBrush="#FF1751FF" CaretBrush="White" SelectionBrush="Black" FontSize="26" FontFamily="Century Gothic" Opacity="0.35" Foreground="White" KeyDown="cityTextBox_KeyDown"/>
+            <Label Content="Miasto" HorizontalAlignment="Left" Height="42" VerticalAlignment="Top" Width="126" Margin="682,209,0,0" FontSize="26" FontFamily="Century Gothic"/>
+            <Label x:Name="actualAdresLabel" Content="Aktualny adres domowy:" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="178" Margin="128,637,0,0" FontSize="14" FontFamily="Century Gothic"/>
+            <TextBox x:Name="routeTimeTextBox" HorizontalAlignment="Left" Height="33" TextWrapping="Wrap" Text="RouteTime" VerticalAlignment="Top" Width="164" Background="{x:Null}" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" Margin="862,40,-32,0" FontSize="24" FontFamily="Century Gothic"/>
+            <TextBox x:Name="routeTimeTrafficTextBox" HorizontalAlignment="Left" Height="33" TextWrapping="Wrap" Text="RouteTimeTraffic" VerticalAlignment="Top" Width="164" Background="{x:Null}" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" Margin="862,76,-32,0" FontSize="24" FontFamily="Century Gothic"/>
+            <Label x:Name="distanceLabel" Content="Całkowity dystans:" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="184" Margin="672,0,0,0" FontSize="18" FontFamily="Century Gothic"/>
+            <Label x:Name="totalTimeLabel" Content="Czas przejazdu:" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="184" Margin="699,35,0,0" FontSize="18" FontFamily="Century Gothic"/>
+            <Label x:Name="totalTimeTrafficLabel" Content="Czas przejazdu (korki):" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="206" Margin="644,73,0,0" FontSize="18" FontFamily="Century Gothic"/>
+            <Label x:Name="routeInstructionsLabel" Content="Wskazówki dojazdu: " HorizontalAlignment="Left" Height="42" VerticalAlignment="Top" Width="232" Margin="724,352,0,0" FontSize="18" FontFamily="Century Gothic"/>
+            <TextBox x:Name="directoryInstructionsTextBox" HorizontalAlignment="Left" Height="180" TextWrapping="Wrap" VerticalAlignment="Top" Width="297" Margin="687,388,0,0" Background="Black" Opacity="0.45" BorderBrush="{x:Null}" Foreground="White"/>
+
+        </wpf:Map>
+    </Grid>
+</Window>

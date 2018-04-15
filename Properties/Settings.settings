@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="tristarweather.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="teatr" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Magenta</Value>
+    </Setting>
+    <Setting Name="sztuka" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Peru</Value>
+    </Setting>
+    <Setting Name="muzyka" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Purple</Value>
+    </Setting>
+    <Setting Name="nauka" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SteelBlue</Value>
+    </Setting>
+    <Setting Name="literatura" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Brown</Value>
+    </Setting>
+    <Setting Name="rozrywka" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Pink</Value>
+    </Setting>
+    <Setting Name="rekreacja" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Orange</Value>
+    </Setting>
+    <Setting Name="inne" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Gray</Value>
+    </Setting>
+    <Setting Name="kino" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Maroon</Value>
+    </Setting>
+    <Setting Name="numberOfTiles" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">6</Value>
+    </Setting>
+    <Setting Name="ThemeColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Jasny</Value>
+    </Setting>
+    <Setting Name="defaultCity" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Gdańsk</Value>
+    </Setting>
+    <Setting Name="configChanged" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,64 @@
+﻿<Page x:Class="tristarweather.Settings.Settingss"
+          xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+          xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+          xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+          xmlns:local="clr-namespace:tristarweather"
+          mc:Ignorable="d" 
+          d:DesignHeight="426" d:DesignWidth="644"
+          Title="Settingss"
+         >
+
+
+
+
+    <Grid x:Name="MainGrid" Background="{DynamicResource pageBackground}" HorizontalAlignment="Left" Height="450" VerticalAlignment="Top" Width="800">
+
+        <TextBox x:Name="previewColorCategory" Cursor="Arrow" IsReadOnly="True"  HorizontalAlignment="Left" Height="22" Margin="118,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Background="{x:Null}"/>
+        <ComboBox x:Name="colorCategory"   HorizontalAlignment="Left" Margin="160,53,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Colors_SelectionChanged">
+
+        </ComboBox>
+        <Label Foreground="{DynamicResource themeDarkFontColor}" Content="Kino:" HorizontalAlignment="Left" Margin="25,49,0,0" VerticalAlignment="Top" Width="102" FontSize="14" FontFamily="Century Gothic"/>
+        <Label Foreground="{DynamicResource themeDarkFontColor}"  Content="Kolory kategorii wydarzeń" HorizontalAlignment="Left" Margin="24,7,0,0" VerticalAlignment="Top" Width="292" FontSize="18" FontFamily="Century Gothic" FontWeight="Bold"/>
+        <TextBox x:Name="previewColorCategory2" Cursor="Arrow" IsReadOnly="True" HorizontalAlignment="Left" Height="22" Margin="118,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Background="{x:Null}"/>
+        <ComboBox x:Name="colorCategory2"  HorizontalAlignment="Left" Margin="160,85,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Colors_SelectionChanged"/>
+        <Label Foreground="{DynamicResource themeDarkFontColor}"  Content="Teatr:" HorizontalAlignment="Left" Margin="25,81,0,0" VerticalAlignment="Top" Width="102" FontSize="14" FontFamily="Century Gothic"/>
+        <TextBox x:Name="previewColorCategory3" Cursor="Arrow" IsReadOnly="True" HorizontalAlignment="Left" Height="22" Margin="118,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Background="{x:Null}"/>
+        <ComboBox x:Name="colorCategory3" HorizontalAlignment="Left" Margin="160,117,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Colors_SelectionChanged"/>
+        <Label Foreground="{DynamicResource themeDarkFontColor}"  Content="Sztuka:" HorizontalAlignment="Left" Margin="25,113,0,0" VerticalAlignment="Top" Width="102" FontSize="14" FontFamily="Century Gothic"/>
+        <TextBox x:Name="previewColorCategory4" Cursor="Arrow" IsReadOnly="True" HorizontalAlignment="Left" Height="22" Margin="118,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Background="{x:Null}"/>
+        <ComboBox x:Name="colorCategory4"  HorizontalAlignment="Left" Margin="160,149,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Colors_SelectionChanged"/>
+        <Label Foreground="{DynamicResource themeDarkFontColor}"  Content="Muzyka:" HorizontalAlignment="Left" Margin="25,145,0,0" VerticalAlignment="Top" Width="102" FontSize="14" FontFamily="Century Gothic"/>
+        <TextBox x:Name="previewColorCategory5" Cursor="Arrow" IsReadOnly="True" HorizontalAlignment="Left" Height="22" Margin="118,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Background="{x:Null}"/>
+        <ComboBox x:Name="colorCategory5"   HorizontalAlignment="Left" Margin="160,181,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Colors_SelectionChanged"/>
+        <Label Foreground="{DynamicResource themeDarkFontColor}"  Content="Nauka:" HorizontalAlignment="Left" Margin="25,177,0,0" VerticalAlignment="Top" Width="102" FontSize="14" FontFamily="Century Gothic"/>
+        <TextBox x:Name="previewColorCategory6" Cursor="Arrow" IsReadOnly="True" HorizontalAlignment="Left" Height="22" Margin="118,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Background="{x:Null}"/>
+        <ComboBox x:Name="colorCategory6"  HorizontalAlignment="Left" Margin="160,213,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Colors_SelectionChanged"/>
+        <Label Foreground="{DynamicResource themeDarkFontColor}"  Content="Literatura:" HorizontalAlignment="Left" Margin="25,209,0,0" VerticalAlignment="Top" Width="102" FontSize="14" FontFamily="Century Gothic"/>
+        <TextBox x:Name="previewColorCategory7" Cursor="Arrow" IsReadOnly="True" HorizontalAlignment="Left" Height="22" Margin="118,245,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Background="{x:Null}"/>
+        <ComboBox x:Name="colorCategory7"   HorizontalAlignment="Left" Margin="160,245,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Colors_SelectionChanged"/>
+        <Label Foreground="{DynamicResource themeDarkFontColor}"  Content="Rozrywka:" HorizontalAlignment="Left" Margin="25,241,0,0" VerticalAlignment="Top" Width="102" FontSize="14" FontFamily="Century Gothic"/>
+        <TextBox x:Name="previewColorCategory8" Cursor="Arrow" IsReadOnly="True" HorizontalAlignment="Left" Height="22" Margin="118,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Background="{x:Null}"/>
+        <ComboBox x:Name="colorCategory8"  HorizontalAlignment="Left" Margin="160,277,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Colors_SelectionChanged"/>
+        <Label Foreground="{DynamicResource themeDarkFontColor}"  Content="Rekracja:" HorizontalAlignment="Left" Margin="25,273,0,0" VerticalAlignment="Top" Width="102" FontSize="14" FontFamily="Century Gothic"/>
+        <TextBox x:Name="previewColorCategory9" Cursor="Arrow" IsReadOnly="True" HorizontalAlignment="Left" Height="22" Margin="118,308,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="26" Background="{x:Null}"/>
+        <ComboBox x:Name="colorCategory9"  HorizontalAlignment="Left" Margin="160,308,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Colors_SelectionChanged"/>
+        <Label Foreground="{DynamicResource themeDarkFontColor}"  Content="Inne:" HorizontalAlignment="Left" Margin="25,304,0,0" VerticalAlignment="Top" Width="102" FontSize="14" FontFamily="Century Gothic"/>
+        <Label Foreground="{DynamicResource themeDarkFontColor}"  Content="Ustawienia kafli wydarzeń" HorizontalAlignment="Left" Margin="351,6,0,0" VerticalAlignment="Top" Width="292" FontSize="18" FontFamily="Century Gothic" FontWeight="Bold"/>
+        <Label Foreground="{DynamicResource themeDarkFontColor}" Content="Ilosci kafli:" HorizontalAlignment="Left" Margin="351,48,0,0" VerticalAlignment="Top" Width="102" FontSize="14" FontFamily="Century Gothic"/>
+        <ComboBox x:Name="numberOfTiles" HorizontalAlignment="Left" Margin="458,53,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="NumberOfTiles_SelectionChanged"/>
+        <Button Content="Ustawienia domyślne" HorizontalAlignment="Left" Margin="286,379,0,0" VerticalAlignment="Top" Width="127" Click="Button_Click" FontFamily="Century Gothic"/>
+        <Label Foreground="{DynamicResource themeDarkFontColor}" Content="Główna kolorystyka aplikacji" HorizontalAlignment="Left" Margin="351,125,0,0" VerticalAlignment="Top" Width="292" FontSize="18" FontFamily="Century Gothic" FontWeight="Bold"/>
+        <Label Foreground="{DynamicResource themeDarkFontColor}" Content="Motyw:" HorizontalAlignment="Left" Margin="351,166,0,0" VerticalAlignment="Top" Width="102" FontSize="14" FontFamily="Century Gothic"/>
+        <ComboBox x:Name="themeComboBox" SelectedIndex="0" HorizontalAlignment="Left" Margin="453,171,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="themeComboBox_SelectionChanged" FontFamily="Century Gothic" >
+            <ComboBoxItem>Jasny</ComboBoxItem>
+            <ComboBoxItem>Ciemny</ComboBoxItem>
+        </ComboBox>
+        <Label Foreground="{DynamicResource themeDarkFontColor}"  Content="Zmiana motywu wymaga ponownego uruchomienia aplikacji." HorizontalAlignment="Left" Margin="351,198,0,0" VerticalAlignment="Top" Width="284" FontStyle="Italic" FontFamily="Century Gothic" FontSize="9" Height="22"/>
+        <Label Foreground="{DynamicResource themeDarkFontColor}" Content="Miasto domyślne:" HorizontalAlignment="Left" Margin="300,81,0,0" VerticalAlignment="Top" Width="153" FontSize="14" FontFamily="Century Gothic"/>
+        <ComboBox x:Name="defaultCity" HorizontalAlignment="Left" Margin="458,86,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="DefaultCity_SelectionChanged"/>
+
+    </Grid>
+
+
+</Page>

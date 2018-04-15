@@ -1,0 +1,91 @@
+﻿<Page x:Class="tristarweather.Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:tristarweather"
+      mc:Ignorable="d" 
+      xmlns:fa="http://schemas.fontawesome.io/icons/"
+      d:DesignHeight="426" d:DesignWidth="644"
+      Title="Page3" GotFocus="Page_GotFocus">
+
+
+    <Page.Resources>
+
+        <DataTemplate x:Key="myHeaderTemplate">
+            <DockPanel>
+
+                <TextBlock FontSize="16" Foreground="DarkBlue" Text="{Binding}"/>
+            </DockPanel>
+        </DataTemplate>
+
+        <Storyboard x:Key="ShowMenu" >
+            <ThicknessAnimation Storyboard.TargetProperty="Margin" From="111,0,133,-101" To="111,0,133,-30" DecelerationRatio="0.9" Duration="0:0:1" />
+        </Storyboard>
+        <Storyboard x:Key="HideMenu">
+            <ThicknessAnimation Storyboard.TargetProperty="Margin" From="111,0,133,-30" To="111,0,133,-101" AccelerationRatio="0.9" Duration="0:0:1" />
+        </Storyboard>
+    </Page.Resources>
+
+        <Grid Background="{DynamicResource pageBackground}" Height="426" Width="644" x:Name="MainGrid">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="11*" />
+                <RowDefinition Height="30*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="30*" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30*" />
+                <ColumnDefinition Width="30*" />
+                <ColumnDefinition Width="30*" />
+            </Grid.ColumnDefinitions>
+
+
+
+            <Button x:Name="synchronizeButton" Foreground="Black" Content="Wyszukaj" HorizontalAlignment="Left" Margin="108.5,29,0,0" VerticalAlignment="Top" Width="74" Click="Button_Click" Grid.Column="1" Background="White" Height="25" FontFamily="Century Gothic"/>
+            <ProgressBar x:Name="progressBar5" Visibility="Collapsed" HorizontalAlignment="Left" Height="24" Margin="195.5,30,0,0" VerticalAlignment="Top" Width="126" Grid.Column="1" Grid.ColumnSpan="2"/>
+
+
+
+            <ComboBox x:Name="citiesComboBox" IsEditable="false" HorizontalAlignment="Left" Margin="176,30,0,0" VerticalAlignment="Top" Width="126" Grid.ColumnSpan="2" Height="24" FontFamily="Century Gothic"/>
+
+            <DatePicker x:Name="datePicker2"  HorizontalAlignment="Left" Margin="20,30,0,0" VerticalAlignment="Top" Height="24" Width="128" RenderTransformOrigin="0.5,0.5" BorderBrush="#FFACACAC" FontFamily="Century Gothic">
+                <DatePicker.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0.112"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </DatePicker.RenderTransform>
+            </DatePicker>
+            <fa:ImageAwesome Visibility="Collapsed" x:Name="LoadingCircle" Foreground="{DynamicResource contrastColor}" Icon="Spinner" Spin="True" SpinDuration="5" Grid.Column="2" Margin="90.5,23,0,5.5"/>
+            <StackPanel Panel.ZIndex="2" Name="pnlBottomMenu" Orientation="Vertical" Width="400" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="111,0,133,-101" Grid.ColumnSpan="3" Grid.Row="3" Grid.RowSpan="2">
+                <Grid>
+                    <Button Name="btnBottomMenuHide" Width="48" Height="48"  Content="Hide" Visibility="Hidden"/>
+                </Grid>
+                <Border BorderBrush="Black" BorderThickness="1" Height="100" Background="White">
+                    <Grid>
+                        <TextBox x:Name="loadingTextBox" HorizontalAlignment="Left" Height="15" Margin="10,47,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="148" Background="#FFB8A2A2" FontSize="8" />
+                        <TextBox x:Name="loadingTextBox2" HorizontalAlignment="Left" Height="15" Margin="10,7,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="148"  Background="#FFB8A2A2" FontSize="8"/>
+                        <TextBox x:Name="loadingTextBox3" HorizontalAlignment="Left" Height="15" Margin="10,27,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="148"  Background="#FFB8A2A2" FontSize="8"/>
+                        <TextBox x:Name="loadingTextBox4" HorizontalAlignment="Left" Height="15" Margin="211,30,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="148"  Background="#FFB8A2A2" FontSize="8" />
+                        <TextBox x:Name="loadingTextBox5" HorizontalAlignment="Left" Height="15" Margin="211,10,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="148"  Background="#FFB8A2A2" FontSize="8" />
+                    </Grid>
+                </Border>
+            </StackPanel>
+            <Label Content="Data:" Foreground="{DynamicResource themeDarkFontColor}" HorizontalAlignment="Left" Margin="18,3,0,0" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="14"/>
+            <Label Content="Miejscowość:" Foreground="{DynamicResource themeDarkFontColor}" HorizontalAlignment="Left" Margin="176,3,0,0" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="14" Grid.ColumnSpan="2"/>
+            <Label x:Name="noDataLabel" Foreground="{DynamicResource themeDarkFontColor}" Content="Komunikat o braku danych" HorizontalAlignment="Left" Visibility="Collapsed" Margin="80,140.5,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="529" Height="69" FontFamily="Century Gothic" FontSize="20" Grid.RowSpan="3"/>
+            <Image x:Name="noDataImage" HorizontalAlignment="Left" Visibility="Collapsed" Height="100" Margin="59.5,28.5,0,0" Grid.Row="3" VerticalAlignment="Top" Width="100" Source="/tristarweather;component/Images/sad_emoji.png" Grid.Column="1"/>
+        </Grid>
+
+
+
+
+
+</Page>
+

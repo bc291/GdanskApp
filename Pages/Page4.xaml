@@ -1,0 +1,16 @@
+﻿<Page x:Class="tristarweather.Pages.Page4"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:tristarweather"
+      mc:Ignorable="d" 
+      d:DesignHeight="426" d:DesignWidth="644"
+      Title="Page4">
+
+    <Grid Background="{DynamicResource pageBackground}">
+        <Label Foreground="{DynamicResource themeDarkFontColor}" Content="Aplikacja została stworzona przez BC." HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="379" FontFamily="Century Gothic" FontSize="20" RenderTransformOrigin="0.542,1.857" Height="38"/>
+        <Label Foreground="{DynamicResource themeDarkFontColor}" Content="2018" HorizontalAlignment="Left" Margin="586,388,0,0" VerticalAlignment="Top" Width="48" FontFamily="Century Gothic" FontSize="15" RenderTransformOrigin="0.542,1.857" Height="28"/>
+        <Label Foreground="{DynamicResource themeDarkFontColor}" Content="Źródła:&#xA;Pomiary poziomu wód i wiatru: pomiary.gdmel.pl&#xA;Dane meteo: OpenWeatherMaps&#xA;Dane o wydarzeniach kulturalnych: planer.info.pl&#xD;&#xA;Mapy: Bing Maps&#xA;" HorizontalAlignment="Left" Margin="10,265,0,0" VerticalAlignment="Top" Width="558" FontFamily="Century Gothic" FontSize="20" RenderTransformOrigin="0.542,1.857" Height="151" FontStyle="Italic"/>
+    </Grid>
+</Page>

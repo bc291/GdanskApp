@@ -1,0 +1,61 @@
+﻿<Page x:Class="tristarweather.Pages.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:tristarweather"
+      xmlns:sys="clr-namespace:System;assembly=mscorlib"
+      mc:Ignorable="d" 
+      d:DesignHeight="426" d:DesignWidth="644"
+      Title="Page1">
+    <Page.Resources>
+        <Style x:Key="myHeaderStyle" TargetType="{x:Type GridViewColumnHeader}">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="FontFamily" Value="Century Gothic"></Setter>
+        </Style>
+
+        <Style TargetType="ListViewItem">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="FontFamily" Value="Century Gothic"></Setter>
+        </Style>
+
+        <sys:Double x:Key="{x:Static SystemParameters.VerticalScrollBarWidthKey}">10</sys:Double>
+
+        <DataTemplate x:Key="myHeaderTemplate">
+            <DockPanel>
+
+                <TextBlock FontSize="16" Foreground="DarkBlue">
+                    <TextBlock.Text>
+                        <Binding/>
+                    </TextBlock.Text>
+                </TextBlock>
+            </DockPanel>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid Background="{DynamicResource pageBackground}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <ListView x:Name="weatherList" HorizontalAlignment="Center" Height="175" Margin="81,229,297,0" VerticalAlignment="Top" Width="266" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Grid.RowSpan="2" Foreground="{DynamicResource themeDarkFontColor}" Background="{DynamicResource listviewBackground}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Data" Width="130" DisplayMemberBinding="{Binding Date}"  HeaderContainerStyle="{StaticResource myHeaderStyle}" HeaderTemplate="{StaticResource myHeaderTemplate}" />
+                    <GridViewColumn Header="Wartość" Width="130" DisplayMemberBinding="{Binding meassurement}" HeaderContainerStyle="{StaticResource myHeaderStyle}" HeaderTemplate="{StaticResource myHeaderTemplate}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <DatePicker SelectedDate="{x:Static sys:DateTime.Now}" x:Name="datePicker" HorizontalAlignment="Left" Margin="258,25,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.836,-0.083" FontFamily="Century Gothic" FontSize="14" Grid.RowSpan="2" Width="156" BorderBrush="#FFACACAC"/>
+        <ComboBox x:Name="listOfStations"  HorizontalAlignment="Left" Margin="258,71,0,0" VerticalAlignment="Top" Width="156" FontFamily="Century Gothic" FontSize="14" Grid.RowSpan="2"/>
+        <ComboBox x:Name="typeOfData"  HorizontalAlignment="Left" Margin="258,116,0,0" VerticalAlignment="Top" Width="156" FontFamily="Century Gothic" FontSize="14" Grid.RowSpan="2"/>
+        <Path x:Name="GetDataButton" ToolTip="Pobierz dane" Stretch="Fill"  Data="F1 M 22,52.0001L 22,44.0001L 46.75,44.0001L 38.75,36L 49.25,36L 61.25,48.0001L 49.25,60L 38.75,60L 46.75,52.0001L 22,52.0001 Z M 54,23.9999L 54,31.9999L 29.25,31.9999L 37.25,40L 26.75,40L 14.75,27.9999L 26.75,16L 37.25,16L 29.25,23.9999L 54,23.9999 Z " Margin="141.848,174,473.153,223.14" Grid.RowSpan="2" MouseLeftButtonDown="Path_MouseLeftButtonDown"/>
+        <Path ToolTipService.ShowOnDisabled = "True" x:Name="plotbutton" IsEnabled="False" Stretch="Fill"  Data="F1 M 22,52L 22,35L 30,35L 30,52L 22,52 Z M 32,52L 32,22L 39,22L 39,52L 32,52 Z M 41,52L 41,41L 49,41L 49,52L 41,52 Z M 51,52L 51,29L 59,29L 59,52L 51,52 Z M 17,19L 20,19L 20,54L 59,54L 59,57L 17,57L 17,19 Z " Margin="378.178,174.332,237.322,222.668" Grid.RowSpan="2" MouseLeftButtonDown="plotbutton_MouseLeftButtonDown"/>
+        <Label Content="Proszę wybrać datę:" Foreground="{DynamicResource themeDarkFontColor}" HorizontalAlignment="Left" Margin="18,22,0,0" VerticalAlignment="Top" Width="214" FontFamily="Century Gothic" FontSize="16" Grid.RowSpan="2"/>
+        <Label Content="Stację pomiarową:" Foreground="{DynamicResource themeDarkFontColor}" HorizontalAlignment="Left" Margin="18,66,0,0" VerticalAlignment="Top" Width="200" FontFamily="Century Gothic" FontSize="16" RenderTransformOrigin="0.542,1.857" Grid.RowSpan="2"/>
+        <Label Content="Parametr:" Foreground="{DynamicResource themeDarkFontColor}" HorizontalAlignment="Left" Margin="18,111,0,0" VerticalAlignment="Top" Width="129" FontFamily="Century Gothic" FontSize="16" RenderTransformOrigin="0.542,1.857" Grid.RowSpan="2"/>
+        <Label Content="Stwórz wykres:" Foreground="{DynamicResource themeDarkFontColor}" HorizontalAlignment="Left" Margin="252,172,0,0" VerticalAlignment="Top" Width="119" FontFamily="Century Gothic" FontSize="16" RenderTransformOrigin="0.542,1.857" Grid.RowSpan="2"/>
+        <Label Content="Pobierz dane:" Foreground="{DynamicResource themeDarkFontColor}" HorizontalAlignment="Left" Margin="16,172,0,0" VerticalAlignment="Top" Width="118" FontFamily="Century Gothic" FontSize="16" RenderTransformOrigin="0.542,1.857" Grid.RowSpan="2"/>
+    </Grid>
+</Page>
