@@ -1,0 +1,28 @@
+﻿[{
+	"root_id": 1,
+	"category": "kino"
+}, {
+	"root_id": 19,
+	"category": "teatr"
+}, {
+	"root_id": 51,
+	"category": "sztuka"
+}, {
+	"root_id": 35,
+	"category": "muzyka"
+}, {
+	"root_id": 83,
+	"category": "nauka"
+}, {
+	"root_id": 61,
+	"category": "literatura"
+}, {
+	"root_id": 69,
+	"category": "rozrywka"
+}, {
+	"root_id": 77,
+	"category": "rekreacja"
+}, {
+	"root_id": 96,
+	"category": "inne"
+}]

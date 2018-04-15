@@ -50,7 +50,8 @@ namespace tristarweather
             await Task.Run(() => ShowRouteHintWorker());
             await Task.Run(() => ShowRouteHintWorker());
             await Task.Run(() => ShowRouteHintWorker());
-
+            routeHintTextBox.Dispatcher.Invoke(() => routeHintTextBox.Visibility = Visibility.Collapsed,
+                DispatcherPriority.Background);
         }
 
         private async Task ShowRouteHintWorker()
